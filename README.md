@@ -446,15 +446,17 @@ git commit -m 'Added html exercises files'
 
 ### Git remote
 
+* In order to use your project you will have to replace {your-username} in the following url
+
 ```bash
-git remote add origin https://github.com/nisnardi/nodewpg.git
+git remote add origin https://github.com/{your-username}/nodewpg.git
 ```
 
 * By executing this command we're configuring a remote git server (github)
 * We run the **git remote** commands to work with a remote server
 * Then we are adding a new server so we have **add**
 * Origin is the default name by convention for our main source
-* So with this command we let git know that we want to add a remote server with the url https://github.com/nisnardi/nodewpg.git that we'll call origin
+* So with this command we let git know that we want to add a remote server with the url https://github.com/{your-username}/nodewpg.git that we'll call origin
 * We can list the project remote servers
 
 ```bash
@@ -469,8 +471,8 @@ git remote
 ```bash
 git remote -v
 
-origin	https://github.com/nisnardi/nodewpg.git (fetch)
-origin	https://github.com/nisnardi/nodewpg.git (push)
+origin	https://github.com/{your-username}/nodewpg.git (fetch)
+origin	https://github.com/{your-username}/nodewpg.git (push)
 ```
 
 * Now I can see that I have **fetch** & **push** permission
@@ -637,7 +639,7 @@ pwd
 * Now we can clone the nodewpg Github project into this test folder one
 
 ```bash
-git clone https://github.com/nisnardi/nodewpg.git
+git clone https://github.com/{your-username}/nodewpg.git
 ```
 
 * List the files
